@@ -49,7 +49,7 @@
       </article>
     </div>
     <g-image
-      src="~/assets/images/hose.png"
+      src="~/assets/images/gifts.png"
       alt="Шланг"
       class="description__image"
     />

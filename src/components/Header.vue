@@ -7,22 +7,18 @@
           <span class="header__text--date">только до 28 декабря</span>
           <span class="header__text">для всех, кто хочет найти лучшее предложение</span>
         </div>
-        <h1 class="header__heading">
-          Здесь заправляют бесплатно!
-        </h1>
+        <h1 class="header__heading">Легкий, очень легкий процент</h1>
         <div class="header__content-bottom">
-        <h2 class="header__heading--secondary">
-          <span class="header__text--gift">дарим&nbsp;</span>
-          <span class="header__text--petrol">до 100 литров бензина&nbsp;</span>
-          <span class="header__text--pts">+ деньги под птс</span>
-        </h2>
-        <Button @click.native="scrollToForm" class="btn header__btn btn--red">
-          Получить
-        </Button>
+          <h2
+            class="header__heading--secondary"
+          >деньги под ПТС на новогодние каникулы по минимальной ставке</h2>
+          <Button @click.native="scrollToForm" class="btn header__btn btn--red">Получить</Button>
         </div>
       </div>
     </div>
-    <g-image src="~/assets/images/gauge.png" alt="Спидометр" class="header__image" />
+    <figure class="header__image-container">
+      <g-image src="~/assets/images/ball.png" alt="Елочная игрушка" class="header__image" />
+    </figure>
   </header>
 </template>
 

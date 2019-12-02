@@ -1,9 +1,10 @@
 .header {
-  background-image: url("~@/assets/images/bg.jpeg");
+  background-image: url("~@/assets/images/bg.jpg");
   background-size: cover;
   margin-bottom: 2rem;
   height: 55rem;
   position: relative;
+  color: var(--color-white);
 
   @include respond(phone) {
     height: 62rem;
@@ -83,11 +84,11 @@
     }
 
     &--date {
-      background-color: #4c8bb3;
+      background-color: #71BBFF;
       border-radius: 2rem;
       padding: 0.5rem;
       display: flex;
-      color: var(--color-white);
+      color: var(--color-grey-dark);
       text-align: center;
       font-size: 1.4rem;
       justify-content: center;
@@ -193,7 +194,7 @@
     }
   }
 
-  &__image {
+  &__image-container {
     width: 25rem;
     position: absolute;
     bottom: -1.6rem;
@@ -220,5 +221,9 @@
       width: 60rem;
       bottom: -4rem;
     }
+  }
+
+  &__image {
+    object-fit: cover;
   }
 }
