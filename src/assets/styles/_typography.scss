@@ -1,27 +1,27 @@
 @font-face {
   font-family: 'Open sans';
-  src: local(".SFNSText-Regular"), url('../fonts/OpenSans-Regular.ttf');
+  src: url('../fonts/OpenSans-Regular.ttf');
   font-display: swap;
   font-weight: 300;
 }
 
 @font-face {
   font-family: 'Open sans';
-  src: local(".SFNSText-SemiBold"), url('../fonts/OpenSans-SemiBold.ttf');
+  src: url('../fonts/OpenSans-SemiBold.ttf');
   font-display: swap;
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'Open sans';
-  src: local(".SFNSText-Bold"), url('../fonts/OpenSans-Bold.ttf');
+  src: url('../fonts/OpenSans-Bold.ttf');
   font-display: swap;
   font-weight: 600;
 }
 
 @font-face {
   font-family: 'Open sans';
-  src: local(".SFNSText-ExtraBold"), url('../fonts/OpenSans-ExtraBold.ttf');
+  src: url('../fonts/OpenSans-ExtraBold.ttf');
   font-display: swap;
   font-weight: 800;
 }
@@ -79,6 +79,10 @@
 
 .hyperlink {
   color: var(--color-red);
+
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 .grey-dark {

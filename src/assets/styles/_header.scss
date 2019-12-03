@@ -9,7 +9,7 @@
     height: 65rem;
   }
 
-  @include respond(medium) {
+  @include respond(tab-port) {
     height: 55rem;
   }
 
@@ -138,6 +138,16 @@
     margin: 0 auto;
     max-width: 35rem;
 
+    &--block {
+      @include respond(medium) {
+        display: block;
+      }
+
+      @include respond(tab-port) {
+        display: inline;
+      }
+    }
+
     @include respond(phone) {
       font-size: 4.4rem;
       line-height: 5.2rem;
@@ -181,7 +191,7 @@
       }
 
       @include respond(tab-port) {
-        max-width: 61rem;
+        max-width: 65rem;
         font-size: 3.2rem;
         line-height: 4.4rem;
       }

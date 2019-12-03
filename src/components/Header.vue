@@ -8,7 +8,7 @@
           <span class="header__text">для всех, кто хочет найти лучшее предложение</span>
         </div>
         <div class="header__content-bottom">
-          <h1 class="header__heading">Легкий, очень легкий процент</h1>
+          <h1 class="header__heading">Легкий, <span class="header__heading--block">очень легкий процент</span></h1>
           <h2
             class="header__heading--secondary"
           >деньги под ПТС на новогодние каникулы по минимальной ставке</h2>

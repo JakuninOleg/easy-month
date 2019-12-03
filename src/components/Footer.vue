@@ -3,7 +3,7 @@
     <div class="section__content footer">
       <div class="footer__header">
         <LogoBlack class="footer__logo" />
-        <a href="tel:+74951203120" class="telephone">+7 495 120 3 120</a>
+        <a href="tel:+74951203120" class="telephone">8 800 222 01 22</a>
       </div>
       <a href="mailto:info@zdeslegko.ru" class="mail">info@zdeslegko.ru</a>
       <p class="footer__text">

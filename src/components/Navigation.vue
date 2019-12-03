@@ -11,7 +11,7 @@
       class="nav__btn-svg btn btn--yellow btn--phone justify-right "
       @click.native="toggleModal()" aria-label="Заказать звонок"
     ><Phone /></Button>
-    <a class="nav__phone telephone" href="tel:+74951203120">+7 495 120 3 120</a>
+    <a class="nav__phone telephone" href="tel:+74951203120">8 800 222 01 22</a>
   </nav>
 </template>
 
