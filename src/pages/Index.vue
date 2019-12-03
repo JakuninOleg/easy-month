@@ -131,7 +131,23 @@ export default {
         }
       );
 
-      this.myMap.geoObjects.add(avilon).add(wayPark);
+      let spb = new ymaps.GeoObject(
+        {
+          geometry: {
+            type: "Point",
+            coordinates: [59.903002, 30.398181],
+          },
+          properties: {
+            iconCaption: "Финсервис 'Здесь Легко'",
+            balloonContent: "Санкт-Петербург, Ул. Седова, д.12, Бизнес-центр Т4 "
+          }
+        },
+        {
+          preset: "islands#redMoneyCircleIcon"
+        }
+      );
+
+      this.myMap.geoObjects.add(avilon).add(wayPark).add(spb);
     },
     load_map() {
       this.load_yamap_obj(
