@@ -27,7 +27,7 @@
 }
 
 .hashtag {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 600;
   color: var(--color-grey-dark);
   border: 1px solid #d6d6d6;
@@ -69,8 +69,13 @@
     border-radius: 0px 0px 15px 15px;
 
     @include respond(medium) {
-      font-size: 2.7rem;
+      font-size: 2.1rem;
       text-align: center;
+    }
+
+    @include respond(tab-port) {
+      font-size: 2.7rem;
+      max-width: 60%;
     }
   }
 }
@@ -91,7 +96,6 @@
     grid-column: 1 / -1;
 
     &--application {
-
       @include respond(medium) {
         grid-row: 2;
       }

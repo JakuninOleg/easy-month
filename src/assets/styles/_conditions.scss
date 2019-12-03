@@ -1,22 +1,33 @@
 .conditions {
   overflow: hidden;
 
+  &__content {
+    padding-top: 0;
+  }
+
   &__icons {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 3rem;
-    padding-top: 5rem;
+    grid-gap: 2rem;
+    padding-top: 2rem;
+    position: relative;
+    z-index: 10;
+    margin-bottom: 5rem;
 
     @include respond(medium) {
       grid-template-columns: repeat(3, 1fr);
-    }
-
-    @include respond(tab-port) {
-      grid-template-columns: repeat(2, 28rem);
+      gap: 3rem;
+      padding-top: 4rem;
     }
 
     @include respond(tab-land) {
       grid-template-columns: repeat(3, 26rem);
+    }
+
+    &--requirements {
+      @include respond(tab-port) {
+        grid-template-columns: repeat(4, 1fr);
+      }
     }
   }
 
@@ -35,6 +46,11 @@
     justify-content: center;
     width: 80px;
     height: 80px;
+
+    @include respond(medium) {
+      width: 100px;
+      height: 100px;
+    }
   }
 
   &__text {
@@ -47,11 +63,11 @@
     }
 
     @include respond(medium) {
-      padding: 2rem 4rem;
+      padding: 2rem 1rem;
     }
 
     @include respond(tab-port) {
-      padding: 2rem 1.5rem;
+      padding: 0;
     }
   }
 
@@ -60,20 +76,20 @@
 
     @include respond(medium) {
       display: block;
-      margin: 0 auto;
+      position: absolute;
       width: 48rem;
+      right: -5rem;
+      bottom: 0;
     }
 
     @include respond(tab-port) {
-      position: absolute;
-      right: -22rem;
-      bottom: 0;
       width: 60rem;
+      right: -20rem;
+      bottom: 25rem;
     }
 
     @include respond(tab-land) {
-      right: -20rem;
-      bottom: -5rem;
+      right: 0;
     }
   }
 }

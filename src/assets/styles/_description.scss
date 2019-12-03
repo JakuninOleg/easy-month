@@ -1,9 +1,11 @@
 .description {
-  position: relative;
+  background: var(--color-white);
   overflow: hidden;
 
   &__header {
     grid-column: 1 / 11;
+    position: relative;
+    z-index: 10;
   }
 
   &__body {
@@ -38,7 +40,7 @@
     }
 
     &--bold {
-      font-weight: 600;
+      font-weight: 400;
       margin-bottom: 2.5rem;
     }
   }
@@ -53,21 +55,21 @@
     display: none;
 
     @include respond(medium) {
-      width: 62rem;
+      width: 40rem;
       position: absolute;
-      right: -15%;
-      bottom: 0;
+      right: -8rem;
+      bottom: 5rem;
       z-index: 0;
       display: block;
     }
 
     @include respond(tab-port) {
-      width: 80rem;
+      width: 55rem;
+      bottom: 1rem;
     }
 
     @include respond(tab-land) {
-      width: 80rem;
-      right: 0;
+      right: 10rem;
     }
   }
 }

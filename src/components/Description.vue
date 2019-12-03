@@ -2,20 +2,18 @@
   <section class="section description">
     <div class="section__content">
       <header class="description__header">
-        <h3 class="heading-3">
-          Пользуйтесь автомобилем и бесплатно заправляйтесь на АЗС Лукойл
-        </h3>
+        <h3 class="heading-3">Беру деньги под ПТС по низкой ставке</h3>
         <div class="hashtags">
-          <span class="hashtag">#бензинподарок</span>
+          <span class="hashtag">#минимальныйпроцент</span>
           <span class="hashtag">#деньгиподавто</span>
-          <span class="hashtag">#честныйзайм</span>
+          <span class="hashtag">#выгодно</span>
         </div>
       </header>
       <article class="description__body">
         <ul class="description__list">
           <li class="description__list-item">
             <BulletYellow />
-            <span class="description__list-span">от 100 000 рублей наличными или на карту</span>
+            <span class="description__list-span">наличными, на карту или на счет</span>
           </li>
           <li class="description__list-item">
             <BulletYellow />
@@ -23,47 +21,37 @@
           </li>
           <li class="description__list-item">
             <BulletYellow />
-            <span class="description__list-span">получение денег в день обращения</span>
+            <span class="description__list-span">в день обращения</span>
           </li>
           <li class="description__list-item">
             <BulletYellow />
-            <span class="description__list-span">высокий процент одобрения</span>
+            <span class="description__list-span">при любой кредитной историей</span>
           </li>
           <li class="description__list-item">
-            <BulletYellow /> 
-            <span class="description__list-span">с любой кредитной историей</span>
+            <BulletYellow />
+            <span class="description__list-span">продолжаю пользоваться автомобилем</span>
           </li>
         </ul>
         <ul class="description__list">
-          <li class="description__list-item description__list-item--bold">
-            <BulletRed />
-            <span
-              class="description__list-span"
-            >Подарочная карта Лукойл – оплачивайте топливо, а также другие товары на любой АЗС Лукойл</span>
-          </li>
           <li class="description__list-item description__list-item--bold">
             <BulletRed />
             <span class="description__list-span">Гарантия и надежность. Входим в реестр ЦБ РФ</span>
           </li>
         </ul>
       </article>
+      <g-image src="~/assets/images/gifts.png" alt="Шланг" class="description__image" />
     </div>
-    <g-image
-      src="~/assets/images/gifts.png"
-      alt="Шланг"
-      class="description__image"
-    />
   </section>
 </template>
 
 <script>
-import BulletYellow from '@/assets/icons/bullet-yellow.svg'
-import BulletRed from '@/assets/icons/bullet-red.svg'
+import BulletYellow from "@/assets/icons/bullet-yellow.svg";
+import BulletRed from "@/assets/icons/bullet-red.svg";
 
 export default {
   components: {
     BulletYellow,
     BulletRed
   }
-}
+};
 </script>

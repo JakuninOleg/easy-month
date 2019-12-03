@@ -8,15 +8,17 @@
 
     <Description />
 
-    <FormApplication ref="form" />
-
     <Conditions />
+
+    <!-- <Requirements /> -->
+
+    <FormApplication ref="form" />
 
     <FormQuestions />
 
     <section class="map">
       <div id="map" class="map"></div>
-      <div class="map__header">Адреса офисов в Москве</div>
+      <div class="map__header">Адреса офисов в Москве и Санкт-Петербурге</div>
     </section>
 
     <Footer />
@@ -28,6 +30,7 @@ import Navigation from "@/components/Navigation.vue";
 import Header from "@/components/Header.vue";
 import Conditions from "@/components/Conditions.vue";
 import Description from "@/components/Description.vue";
+import Requirements from "@/components/Requirements.vue";
 import FormApplication from "@/components/FormApplication.vue";
 import FormQuestions from "@/components/FormQuestions.vue";
 import Footer from "@/components/Footer.vue";
@@ -38,6 +41,7 @@ export default {
     Navigation,
     Header,
     Description,
+    Requirements,
     FormApplication,
     FormQuestions,
     Conditions,

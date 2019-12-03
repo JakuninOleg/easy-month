@@ -1,5 +1,5 @@
 <template>
-  <section class="section section__grey">
+  <section class="section">
     <div class="section__content">
       <header>
         <h3 class="heading-3">Остались вопросы? Перезвоним в течение 5 минут</h3>

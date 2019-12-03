@@ -4,9 +4,9 @@
       <header>
         <h2 class="heading-3">Быстрое получение денег под Залог ПТС</h2>
         <div class="hashtags">
-          <span class="hashtag">#простополучить</span>
+          <span class="hashtag">#быстрополучить</span>
           <span class="hashtag">#моментальноденьги</span>
-          <span class="hashtag">#займденег</span>
+          <span class="hashtag">#деньвдень</span>
         </div>
       </header>
       <article>
