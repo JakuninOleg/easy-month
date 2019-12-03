@@ -62,11 +62,15 @@
     color: var(--color-grey-dark);
     font-size: 1.6rem;
     width: 80%;
-    max-width: 57rem;
+    max-width: 60rem;
     text-align: center;
     transform: translateX(-50%);
     padding: 0.3rem 3rem;
     border-radius: 0px 0px 15px 15px;
+
+    @include respond(phone) {
+      font-weight: 600;
+    }
 
     @include respond(medium) {
       font-size: 2.1rem;
@@ -75,7 +79,7 @@
 
     @include respond(tab-port) {
       font-size: 2.7rem;
-      max-width: 60%;
+      max-width: 70%;
     }
   }
 }

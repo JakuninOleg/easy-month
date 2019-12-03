@@ -14,7 +14,7 @@
           <span class="form-application__step-number">1</span>
           <span
             class="form-application__step-text"
-          >Отправьте заявку и получите предварительное одобрение по телефону</span>
+          >Отправьте заявку и получите предварительное одобрение</span>
         </div>
         <Form>
           <template v-slot:form-name>
@@ -46,11 +46,11 @@
           <span class="form-application__step-number">2</span>
           <span
             class="form-application__step-text"
-          >Приезжайте в офис для оценки авто и заключения договора</span>
+          >Оцените автомобиль. Вы можете приехать в офис или заказать услугу «выездной офис».</span>
         </div>
         <div class="form-application__step">
           <span class="form-application__step-number">3</span>
-          <span class="form-application__step-text">Получайте деньги и подарочную карту Лукойл</span>
+          <span class="form-application__step-text">Подпишите договор и получите деньги под низкий процент</span>
         </div>
       </article>
     </div>

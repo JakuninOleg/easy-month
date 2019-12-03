@@ -57,6 +57,10 @@
       align-items: center;
       padding: 0 0.5rem;
     }
+
+    @include respond(tab-land) {
+      margin-bottom: 2rem;
+    }
   }
 
   &__content-bottom {
@@ -236,6 +240,7 @@
     @include respond(medium) {
       width: 32rem;
       height: 53rem;
+      bottom: -1rem;
     }
 
     @include respond(tab-port) {
@@ -244,7 +249,7 @@
     }
 
     @include respond(tab-land) {
-      bottom: -5rem;
+      bottom: -4rem;
       right: 6rem;
     }
 
