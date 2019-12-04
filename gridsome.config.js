@@ -49,7 +49,7 @@ module.exports = {
         manifestPath: "manifest.json",
         serviceWorkerPath: "service-worker.js",
         cachedFileTypes: "js,json,css,html,png,jpg,jpeg,svg",
-        shortName: "Gridsome",
+        shortName: "Здесь Легко",
         themeColor: "#fed837",
         backgroundColor: "#ffffff",
         icon: "./static/logo.png", // must be provided
