@@ -17,13 +17,27 @@ function addStyleResource(rule) {
 
 module.exports = {
   siteName: "Здесь Легко",
-  titleTemplate: "Деньги под ПТС в Москве. 100 литров бензина бесплатно и 100% одобрение",
-  plugins: [],
+  titleTemplate:
+    "Деньги под ПТС под 1,5% - Здесь Легко",
+  plugins: [
+    {
+      use: "gridsome-plugin-yandex-metrika",
+      env: 'production',
+      options: {
+        id: 56518120,
+        options: {
+          clickmap: true,
+          trackLinks: true,
+          accurateTrackBounce: true,
+          webvisor: true,
+          ecommerce: "dataLayer"
+        }
+      }
+    }
+  ],
   chainWebpack(config) {
-    const svgRule = config.module.rule('svg')
-    svgRule.uses.clear()
-    svgRule
-      .use('vue-svg-loader')
-      .loader('vue-svg-loader')
+    const svgRule = config.module.rule("svg");
+    svgRule.uses.clear();
+    svgRule.use("vue-svg-loader").loader("vue-svg-loader");
   }
 };
