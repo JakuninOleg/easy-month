@@ -33,6 +33,12 @@ module.exports = {
           ecommerce: "dataLayer"
         }
       }
+    },
+    {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-127687486-3'
+      }
     }
   ],
   chainWebpack(config) {
@@ -41,3 +47,5 @@ module.exports = {
     svgRule.use("vue-svg-loader").loader("vue-svg-loader");
   }
 };
+
+
