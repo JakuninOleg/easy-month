@@ -17,12 +17,11 @@ function addStyleResource(rule) {
 
 module.exports = {
   siteName: "Здесь Легко",
-  titleTemplate:
-    "Деньги под ПТС под 1,5% - Здесь Легко",
+  titleTemplate: "Деньги под ПТС под 1,5% - Здесь Легко",
   plugins: [
     {
       use: "gridsome-plugin-yandex-metrika",
-      env: 'production',
+      env: "production",
       options: {
         id: 56518120,
         options: {
@@ -35,9 +34,27 @@ module.exports = {
       }
     },
     {
-      use: '@gridsome/plugin-google-analytics',
+      use: "@gridsome/plugin-google-analytics",
       options: {
-        id: 'UA-127687486-3'
+        id: "UA-127687486-3"
+      }
+    },
+    {
+      use: "gridsome-plugin-pwa",
+      options: {
+        title: "Деньги под ПТС под 1,5% - Здесь Легко",
+        startUrl: "/",
+        display: "standalone",
+        statusBarStyle: "default",
+        manifestPath: "manifest.json",
+        serviceWorkerPath: "service-worker.js",
+        cachedFileTypes: "js,json,css,html,png,jpg,jpeg,svg",
+        shortName: "Gridsome",
+        themeColor: "#fed837",
+        backgroundColor: "#ffffff",
+        icon: "./static/logo.png", // must be provided
+        msTileImage: "",
+        msTileColor: "#fed837"
       }
     }
   ],
@@ -47,5 +64,3 @@ module.exports = {
     svgRule.use("vue-svg-loader").loader("vue-svg-loader");
   }
 };
-
-

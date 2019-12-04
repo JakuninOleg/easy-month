@@ -1,0 +1,15 @@
+{
+  "name": "Деньги под ПТС под 1,5% - Здесь Легко",
+  "short_name": "Gridsome",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#fed837",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "assets/static/logo.png",
+      "sizes": "648x648",
+      "type": "image/png"
+    }
+  ]
+}
