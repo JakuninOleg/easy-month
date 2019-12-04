@@ -65,4 +65,11 @@ export default function(Vue, { router, head, appOptions }) {
     content:
       "Деньги день в день под ПТС по очень низкой ставке! 1,5% в месяц – подари себе каникулы! С любой КИ и без поручителей. Авто остается у Вас! Без скрытых комиссий. Здесь Легко! 8 (800) 222-01-22"
   });
+
+  head.meta.push({
+    'http-equiv': "Cache-control",
+    key: "Cache-control",
+    content:
+      "max-age=31557600, must-revalidate"
+  });
 }
