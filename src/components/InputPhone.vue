@@ -33,7 +33,7 @@ export default {
       }
     },
     validatePhone() {
-      console.log('validated')
+      // console.log('validated')
     },
     formatPhone (e) {
       let phoneStr = this.phone.replace(/\D/g, '')
