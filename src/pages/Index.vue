@@ -151,7 +151,7 @@ export default {
     },
     load_map() {
       this.load_yamap_obj(
-        "https://api-maps.yandex.ru/2.1/?lang=ru_RU&apikey=3A6d943a65558c35905c86a4cf36cb2c62c1897927b66ad5a15ada713aad7c1ec6"
+        "https://api-maps.yandex.ru/2.1/?lang=ru_RU&apikey=1a2a21cf-1f34-4289-a9d9-76199865eb96"
       ).then(() => {
         window.ymaps.ready(this.init_map);
       });
