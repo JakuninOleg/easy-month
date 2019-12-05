@@ -17,8 +17,27 @@ function addStyleResource(rule) {
 
 module.exports = {
   siteName: "Здесь Легко",
+  siteUrl: "https://easy.zdeslegko.ru/",
   titleTemplate: "Деньги под ПТС под 1,5% - Здесь Легко",
   plugins: [
+    {
+      use: 'gridsome-plugin-robots-txt',
+      options: {
+        policy: [
+          {
+            userAgent: "*",
+            allow: "*",
+          }
+        ]
+      }
+    },
+    {
+      use: '@gridsome/plugin-sitemap',
+      options: {
+        cacheTime: 600000,
+        exclude: ['/404']
+      }
+    },
     {
       use: "gridsome-plugin-yandex-metrika",
       env: "production",

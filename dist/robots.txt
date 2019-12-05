@@ -1,0 +1,4 @@
+User-agent: *
+Allow: *
+Sitemap: https://easy.zdeslegko.ru/sitemap.xml
+Host: https://easy.zdeslegko.ru
