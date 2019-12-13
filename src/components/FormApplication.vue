@@ -2,7 +2,7 @@
   <section class="section section__grey">
     <div class="section__content">
       <header>
-        <h2 class="heading-3">Быстрое получение денег под Залог ПТС</h2>
+        <h2 class="heading-3">Быстрое получение денег под ПТС</h2>
         <div class="hashtags">
           <span class="hashtag">#быстрополучить</span>
           <span class="hashtag">#моментальноденьги</span>
