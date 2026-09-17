@@ -57,24 +57,6 @@ module.exports = {
       options: {
         id: "UA-127687486-3"
       }
-    },
-    {
-      use: "gridsome-plugin-pwa",
-      options: {
-        title: "Деньги под ПТС под 1,5% - Здесь Легко",
-        startUrl: "/",
-        display: "standalone",
-        statusBarStyle: "default",
-        manifestPath: "manifest.json",
-        serviceWorkerPath: "service-worker.js",
-        cachedFileTypes: "js,json,css,html,png,jpg,jpeg,svg",
-        shortName: "Здесь Легко",
-        themeColor: "#fed837",
-        backgroundColor: "#ffffff",
-        icon: "./static/logo.png", // must be provided
-        msTileImage: "",
-        msTileColor: "#fed837"
-      }
     }
   ],
   chainWebpack(config) {

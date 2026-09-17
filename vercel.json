@@ -1,0 +1,6 @@
+{
+  "buildCommand": "echo 'Using committed dist'",
+  "outputDirectory": "dist",
+  "installCommand": "echo 'Skipping install for static export'",
+  "framework": null
+}
